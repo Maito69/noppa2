@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Noppapeli</title>
+</head>
+
+<body>
+    <h1>Noppapeli</h1>
+
+
+    <div>
+        <label>Pelaajien määrä: <input type="number" id="pelaajienMaara" min="2" max="6" value="2"></label>
+        <button id="luoPelaajat">Luo pelaajat</button>
+    </div>
+
+    <div id="pelaajienNimet"></div>
+
+    <button id="aloitaPeli">Aloita peli</button>
+
+    <h2>Vuorossa: <span id="vuorossa">-</span></h2>
+    <p>Vuoron pisteet: <span id="vuoronPisteet">0</span></p>
+    <img id="noppaKuva1" src="dice1.png" alt="Noppa 1" width="100">
+    <img id="noppaKuva2" src="dice1.png" alt="Noppa 2" width="100">
+
+    <div>
+        <button id="heitäNoppaa">Heitä noppaa</button>
+        <button id="pidäPisteet">Pidä pisteet</button>
+    </div>
+
+    <h3>Pisteet</h3>
+    <div id="pisteetLista"></div>
+
+    <script src="noppa2.js"></script>
+
+
+    
+</body>
+
+</html>
